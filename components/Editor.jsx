@@ -1,0 +1,14 @@
+import TopNav from "./TopNav"
+
+export default function Editor(props){
+    const { text, setText } = props
+
+    return(
+        <div>
+            <section className="notes-container">
+                <TopNav {...props}/>
+                <textarea value={text} onChange={setText} placeholder="mitochondria is the powerhouse of the cell"/>
+            </section>
+        </div>
+    )
+}
