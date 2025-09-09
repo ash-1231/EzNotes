@@ -279,11 +279,13 @@ article>div {
     position: sticky;
     max-height: 100vh;
   }
-  .mute-btn {
-    bottom: 20px;
-    right: 20px;
+ .mute-btn {
+    position: fixed;   /* Fix it relative to the viewport */
+    top: 20px;         /* Distance from top */
+    right: 20px;       /* Distance from right */
     padding: 10px 14px;
     font-size: 14px;
+    z-index: 1000;     /* Ensure it stays above other elements */
   }
 }
 
@@ -311,11 +313,13 @@ article>div {
   .mdx-container {
     grid-column: span 2;
   }
-    .mute-btn {
-    bottom: 25px;
-    right: 25px;
-    padding: 12px 16px;
-    font-size: 15px;
+ .mute-btn {
+    position: fixed;   /* Fix it relative to the viewport */
+    top: 20px;         /* Distance from top */
+    right: 20px;       /* Distance from right */
+    padding: 10px 14px;
+    font-size: 14px;
+    z-index: 1000;     /* Ensure it stays above other elements */
   }
 }
 
