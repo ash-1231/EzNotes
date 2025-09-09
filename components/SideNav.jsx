@@ -78,7 +78,7 @@ export default function SideNav(props) {
                    const date = (new Date(parseInt(d))).toString()
                     return (
                         <button onClick={() => {
-                            router.push('/notes?id =' + note)
+                            router.push('/notes?id='+note)
                             setIsViewer(true)
                         }}  key={index} className="card-button-secondary list-btn">
                             <p>{n}</p>

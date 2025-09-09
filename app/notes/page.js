@@ -84,7 +84,7 @@ export default function NotesPage() {
             setNote({...docData})
           }
         } catch (error) {
-          console.log(err.message);
+          console.log(error.message);
         } finally{
           setIsLoading(false)
         }
