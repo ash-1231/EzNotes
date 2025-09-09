@@ -279,7 +279,7 @@ article>div {
     position: sticky;
     max-height: 100vh;
   }
-.mute-btn { bottom: 20px; right: 20px; padding: 10px 14px; font-size: 14px; position:relative;}
+.mute-btn { bottom: 20px; right: 20px; padding: 10px 14px; font-size: 14px;}
 }
 
 @media (min-width: 768px) {
@@ -306,7 +306,7 @@ article>div {
   .mdx-container {
     grid-column: span 2;
   }
-.mute-btn { bottom: 20px; right: 20px; padding: 10px 14px; font-size: 14px; position:relative;}
+.mute-btn { bottom: 20px; right: 20px; padding: 10px 14px; font-size: 14px; }
 }
 
 @media (min-width: 1024px) {
