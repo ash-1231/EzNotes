@@ -279,14 +279,7 @@ article>div {
     position: sticky;
     max-height: 100vh;
   }
- .mute-btn {
-    position: fixed;   /* Fix it relative to the viewport */
-    top: 20px;         /* Distance from top */
-    right: 20px;       /* Distance from right */
-    padding: 10px 14px;
-    font-size: 14px;
-    z-index: 1000;     /* Ensure it stays above other elements */
-  }
+.mute-btn { bottom: 20px; right: 20px; padding: 10px 14px; font-size: 14px; position:relative;}
 }
 
 @media (min-width: 768px) {
@@ -313,14 +306,7 @@ article>div {
   .mdx-container {
     grid-column: span 2;
   }
- .mute-btn {
-    position: fixed;   /* Fix it relative to the viewport */
-    top: 20px;         /* Distance from top */
-    right: 20px;       /* Distance from right */
-    padding: 10px 14px;
-    font-size: 14px;
-    z-index: 1000;     /* Ensure it stays above other elements */
-  }
+.mute-btn { bottom: 20px; right: 20px; padding: 10px 14px; font-size: 14px; position:relative;}
 }
 
 @media (min-width: 1024px) {
